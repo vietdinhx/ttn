@@ -1,0 +1,58 @@
+/* ============================ */
+$main-color: false !default;
+@if($main-color != false) {
+  .link-action {
+    &:hover {
+      background: darken($main-color, 20%);
+    }
+  }
+	.pagination {
+		> .active {
+			> a,
+			> span {
+				background-color: $main-color;
+				border-color: $main-color;
+				&:hover, &:focus {
+					background-color: $main-color;
+					border-color: $main-color;
+				}
+			}
+		}
+	}
+	a,.title-property,
+	#sunfw-master .sw-categories-list.Items .Item2 .Title .Title,
+	.kfrontend .btn-link,
+	.jsn-error-page .goto-home a {
+		color: $main-color;
+	}
+	.catItemReadMore a.k2ReadMore,
+	.cal_td_dayshasevents,
+	.progress-bar {
+		background-color: $main-color;
+	}
+	div.latestItemReadMore a,
+	.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+		background: $main-color;
+	}
+	.sunfw-com-jomres .ui-state-active, .ui-widget-content .ui-state-active,
+	h3.sw-multi-color,
+	h2.panel-title,
+	.dataTable th {
+		color: $main-color;
+	}
+	.sunfwMenuNoneEffect ul.sunfw-tpl-menu > li > ul,
+	ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu {
+		border-top-color: $main-color;
+	}
+	.sunfw-menu-head.navbar-default .navbar-nav > li.parent:hover > a:before {
+		border-bottom-color: $main-color;
+	}
+}
+
+/* ============================ Sub Color ============================ */
+$sub-color: false !default;
+@if($sub-color != false){
+	.sw-aboutventure-bg .pb-background {
+		background: $sub-color;
+	}
+}

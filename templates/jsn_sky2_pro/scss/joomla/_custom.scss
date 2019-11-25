@@ -1,0 +1,30 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.pagination {
+  p.counter.pull-right {
+    float: none !important;
+  }
+}
+//fix outline around link after click on firefox and edge
+a:hover, a:active, a:focus {
+  outline: 0;
+}
+.icon-edit:before,
+.icon-print:before {
+	font-family: FontAwesome;
+}
+.icon-print:before {
+	content: '\f02f';
+
+}
+.icon-edit:before{
+	content: '\f044';
+}
+.sunfw-com-content.sunfw-view-article > .sunfw-content > .item-page {
+	    padding: 30px;
+}
+#sbox-window #sbox-content {
+  overflow: scroll;
+}

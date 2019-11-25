@@ -1,0 +1,384 @@
+// ======================================
+// -------- Disable Responsive ----------
+// ======================================
+
+.disable-responsive {
+	.container {
+		width: 960px !important;
+	}
+}
+
+// ======================================
+// ------------- Small grid -------------
+// ======================================
+
+@media (min-width: $screen-sm-min) {
+
+}
+
+// ======================================
+// ------------- Medium grid ------------
+// ======================================
+
+@media (min-width: $screen-md-min) {
+	.container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+
+// ======================================
+// ------------- Large grid -------------
+// ======================================
+
+@media (min-width: $screen-lg-min) {
+
+}
+
+@media (min-width: $screen-sm-max) {
+	.sunfw-menu-head li.megamenu > .caret {
+		display: none;
+	}
+	.navbar-nav.sunfw-tpl-menu {
+		@include rtl-float-right();
+	}
+	body.sunfw-direction-rtl .navbar-nav > li {
+		float: right;
+	}
+	body.sunfw-direction-rtl .sw-info-items {
+		.pb-item {
+			> .pb-content {
+				text-align: right;
+			}
+		}
+	}
+	body.sunfw-direction-rtl .sw-hasalignright .jsn-uniform.jsn-master .jsn-row-container {
+		input {
+			border: 1px solid #d7d7d7;
+		}
+	}
+}
+@media (max-width: $screen-sm-max) {
+	#sunfw-master {
+		.sw-itemshome-list.Items {
+			margin-right: 5px;
+			.Item2 {
+				padding-left: 0;
+				padding-right: 0;
+				.image {
+					margin-right: 5px;
+				}
+				.Title .Title {
+					font-size: 18px;
+					font-weight: 400;
+					font-family: Lato;
+				}
+			}
+		}
+	}
+	.jsn-master .jsn-bootstrap  .jsn-form-content .control-group .controls textarea {
+		width: 100%;
+	}
+	.sunfw-homepage .sunfw-section {
+		> div > .row {
+			> .col-xs-12, > .col-sm-12, > .col-md-12, > .col-lg-12 {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
+	.newsfeed-category {
+		.filters {
+			.btn-group.pull-right {
+				float: left !important;
+			}
+		}
+	}
+	#k2Container {
+		.itemList, .userItemList, .tagItemList, div.latestItemList {
+			padding: 0;
+		}
+		div.createdate {
+			margin: 0 15px 0 0;
+		}
+	}
+	.contact .controls input {
+		padding: 7px 5px;
+	}
+	.sw-our-customers .pb-grid>[class*="pb-seven pb-wide"].pb-column,
+	.jsn-master .jsn-narrow textarea.jsn-input-xlarge-fluid {
+		width: 100% !important;
+	}
+	.sw-hasaligncenter .jsn-uniform.jsn-master .jsn-row-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+/*======max-width: 767px====*/
+@media (max-width: $screen-xs-max) {
+	textarea, 
+	input[type="text"]:not([name*="filter"]), 
+	input[type="password"], input[type="datetime"],
+	input[type="datetime-local"], input[type="date"],
+	input[type="month"], 
+	input[type="time"], 
+	input[type="week"], 
+	input[type="number"], 
+	input[type="email"], 
+	input[type="url"], 
+	input[type="search"],
+	input[type="tel"], 
+	input[type="color"],
+	.chzn-container-single .chzn-single {
+		width: 100%;
+	}
+}
+@media (max-device-width: 960px) {
+	#sunfw-master .jsn-uniform.jsn-master .jsn-form-content input.email {
+		padding: 10px 15px 8px;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+	}
+	#sunfw-master .pb-heading.small-heading {
+		.Title {
+			font-size: 21px;
+		}
+	}
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	#menu_item_menu ul.navbar-nav > li > a {
+		font-size: 12px !important;
+	}
+	.sunfw-logo {
+		padding: 2px 0;
+	}
+	.sunfw-homepage .sunfw-logo {
+		padding: 2px 15px;
+	}
+	.sunfw-menu-head.navbar-default .navbar-nav > li > a {
+		margin: 16px 0 15px;
+		padding: 5px 10px;
+	}
+	#sunfw-master .pb-heading.medium-heading .Title {
+		font-size: 55px;
+	}
+}
+// responsive max-width: 767px;
+@media (max-width: 767px) {
+	#sunfw-master .pb-heading.medium-heading {
+		.Title {
+			font-size: 26px;
+		}
+		.Subtitle {
+			font-size: 19px;
+		}
+	}
+	.center-mobile {
+		.pb-grid>[class*="pb-right pb-aligned"].pb-column.pb-column,
+		.pb-heading {
+			text-align: center;
+		}
+	}
+	.sunfw-social {
+		@include rtl-margin-right(0);
+	}
+	.sunfw-social .social,
+	.menu.menu-topmenu {
+		text-align: center;
+	}
+	.menu.menu-topmenu li a {
+		padding: 10px 10px 0;
+	}
+	.block-menu {
+		position: absolute;
+		top: 0;
+		padding: 0;
+		@include rtl-right(0);
+	}
+	.jsn-breadcrumb {
+		padding: 40px 0;
+	}
+	.blog {
+		.article-info dd:last-child {
+			float: none;
+		}
+		.entry-content {
+			padding: 15px;
+		}
+	}
+	.item-page {
+		padding-top: 20px;
+	}
+	.item-page .article-info {
+		padding-bottom: 30px;
+	}
+	.item-page .page-header h2 {
+		font-size: 30px;
+	}
+	.layout-item .blog [class*='col-xs-'] {
+		width: 100%;
+	}
+	.bottom, .bottom .align-right {
+		text-align: center;
+	}
+	div.k2AccountPage table.admintable td input, div.k2AccountPage table.admintable td textarea{
+		margin-left: 0 !important;
+		max-width: 95%;
+	}
+	.sw-main-content {
+		.sunfw-pos-left .module-style:first-child {
+			margin-bottom: 30px;
+		}
+	}
+	ul.category.list-striped {
+		li {
+			padding: 15px 0;
+		}
+		.list.pull-left + br + .list.pull-left {
+			float: none !important;
+		}
+	}
+	.jsn-breadcrumb .breadcrumb {
+		font-size: 12px;
+	}
+	#sunfw-master {
+		.Section.sw-aboutus-items {
+			padding: 40px 0;
+		}
+		.sw-icons-list.Items .Item2 {
+			margin-bottom: 10px;
+		}
+		.sw-icons-list.Items .Item2 .pb-blurb .pb-content {
+			opacity: 1 !important;
+		}
+		.pb-stackable.pb-divided:not(.pb-vertically).pb-grid>.pb-column:not(.pb-row),
+		.pb-stackable.pb-divided:not(.pb-vertically).pb-grid>.pb-row>.pb-column {
+			padding-left: 20px !important;
+			padding-right: 20px !important;
+		}
+		.Items.sw-categories-list .Item2 {
+			margin-top: 0;
+			margin-bottom: 15px;
+			&:first-child {
+				margin-top: -145px !important;
+			}
+		}
+		.pb-grid.sw-info-contact {
+			left: auto;
+			transform: translateY(-50%);
+			margin: 0 30px !important;
+			padding-left: 5px;
+			padding-right: 5px;
+			.Heading .Title {
+				text-align: left;
+			}
+		}
+		.sw-hasalignright .jsn-uniform.jsn-master .jsn-row-container {
+			text-align: left;
+		}
+		.contact .form-actions button.btn {
+			margin-left: 5px !important;
+		}
+	}
+	.sunfw-menu-head.navbar-default .navbar-nav > li.parent:hover > a:before {
+		display: none;
+	}
+	ul.nav[class*='menu-sidemenu'] {
+		li {
+			ul {
+				padding: 0px 20px!important;
+			}
+			> ul{
+				display: none;
+			}
+			&.parent > a > .caret{
+				border: none;
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 40px;
+				height: 100%;
+				line-height: 50px;
+				text-align: center;
+				&:after{
+					content: '\f105';
+					font-family: FontAwesome;
+				}
+			}
+			&.active {
+				> a > .caret {
+					&:after {
+						content: '\f107';
+					}
+				}
+				> ul {
+					display: block;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 480px) {
+	p[align="center"] {
+		a.btn {
+			margin-bottom: 15px;
+		}
+	}
+	.sunfw-logo {
+		position: relative;
+		z-index: 999;
+		max-width: 50%;
+		padding: 0;
+	}
+	.sunfw-homepage .sunfw-logo {
+		padding: 0 15px;
+	}
+	.Items[class*="pb-column"].pb-grid>.pb-column:not(.pb-row),
+	.Items[class*="pb-column"].pb-grid>.pb-row>.pb-column {
+		width: 100%;
+	}
+	.blog {
+		.items-row [class*="col-xs-4"] {
+			width: 100%;
+		}
+	}
+	.jsn-breadcrumb {
+		padding: 15px 0;
+	}
+	.layout-item .slider-home {
+		padding: 30px 0;
+		h1 {
+			font-size: 24px;
+			margin-bottom: 15px;
+		}
+		.btn {
+			margin-top: 20px;
+		}
+	}
+	body .contact #contact-form.form-horizontal {
+		.control-group {
+			.control-label,
+			.controls {
+				width: 100%;
+				display: block;
+				clear: both;
+				text-align: left;
+				margin: 0;
+			}
+		}
+	}
+	ul.nav[class*='menu-sidemenu'] {
+		li {
+			ul{
+				display: none;
+			}
+		}
+	}
+}
+@media (max-width: 320px) {
+	#sunfw-master #recaptcha_table {
+		width: 250px!important;
+	}
+}

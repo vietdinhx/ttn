@@ -1,0 +1,65 @@
+.sunfw_section_promo {
+  background-image: url("../../../../templates/jsn_sky2_pro/images/blue/bg-promo.jpg");
+}
+.sunfw_section_content-bottom {
+  background-color: #eee;
+}
+.sunfw_section_copyright {
+  background-color: #111;
+  color: #999;
+  font-size: 14px;
+}
+.sunfw_section_copyright h1, .sunfw_section_copyright h2, .sunfw_section_copyright h3, .sunfw_section_copyright h4, .sunfw_section_copyright h5, .sunfw_section_copyright h6, .sunfw_section_copyright .h1, .sunfw_section_copyright .h2, .sunfw_section_copyright .h3, .sunfw_section_copyright .h4, .sunfw_section_copyright .h5, .sunfw_section_copyright .h6 {
+  color: #999;
+  line-height: 1.4;
+}
+.sunfw_section_copyright h1, .sunfw_section_copyright .h1 {
+  font-size: 31px;
+}
+.sunfw_section_copyright h2, .sunfw_section_copyright .h2 {
+  font-size: 25px;
+}
+.sunfw_section_copyright h3, .sunfw_section_copyright .h3 {
+  font-size: 21px;
+}
+.sunfw_section_copyright h4, .sunfw_section_copyright .h4 {
+  font-size: 15px;
+}
+.sunfw_section_copyright h5, .sunfw_section_copyright .h5 {
+  font-size: 12px;
+}
+.sunfw_section_copyright h6, .sunfw_section_copyright .h6 {
+  font-size: 11px;
+}
+.sunfw_section_top {
+  background-color: #111;
+  color: #999;
+  font-size: 14px;
+}
+.sunfw_section_top h1, .sunfw_section_top h2, .sunfw_section_top h3, .sunfw_section_top h4, .sunfw_section_top h5, .sunfw_section_top h6, .sunfw_section_top .h1, .sunfw_section_top .h2, .sunfw_section_top .h3, .sunfw_section_top .h4, .sunfw_section_top .h5, .sunfw_section_top .h6 {
+  color: #999;
+  line-height: 1.4;
+}
+.sunfw_section_top h1, .sunfw_section_top .h1 {
+  font-size: 31px;
+}
+.sunfw_section_top h2, .sunfw_section_top .h2 {
+  font-size: 25px;
+}
+.sunfw_section_top h3, .sunfw_section_top .h3 {
+  font-size: 21px;
+}
+.sunfw_section_top h4, .sunfw_section_top .h4 {
+  font-size: 15px;
+}
+.sunfw_section_top h5, .sunfw_section_top .h5 {
+  font-size: 12px;
+}
+.sunfw_section_top h6, .sunfw_section_top .h6 {
+  font-size: 11px;
+}
+.sunfw_section_header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eee;
+}

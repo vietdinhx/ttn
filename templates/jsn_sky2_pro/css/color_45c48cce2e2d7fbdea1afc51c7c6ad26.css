@@ -1,0 +1,34 @@
+/* ============================ */
+.link-action:hover {
+  background: #015b7f;
+}
+.pagination > .active > a, .pagination > .active > span {
+  background-color: #02a4e4;
+  border-color: #02a4e4;
+}
+.pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color: #02a4e4;
+  border-color: #02a4e4;
+}
+a, .title-property, #sunfw-master .sw-categories-list.Items .Item2 .Title .Title, .kfrontend .btn-link, .jsn-error-page .goto-home a {
+  color: #02a4e4;
+}
+.catItemReadMore a.k2ReadMore, .cal_td_dayshasevents, .progress-bar {
+  background-color: #02a4e4;
+}
+div.latestItemReadMore a, .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background: #02a4e4;
+}
+.sunfw-com-jomres .ui-state-active, .ui-widget-content .ui-state-active, h3.sw-multi-color, h2.panel-title, .dataTable th {
+  color: #02a4e4;
+}
+.sunfwMenuNoneEffect ul.sunfw-tpl-menu > li > ul, ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu {
+  border-top-color: #02a4e4;
+}
+.sunfw-menu-head.navbar-default .navbar-nav > li.parent:hover > a:before {
+  border-bottom-color: #02a4e4;
+}
+/* ============================ Sub Color ============================ */
+.sw-aboutventure-bg .pb-background {
+  background: #f86201;
+}

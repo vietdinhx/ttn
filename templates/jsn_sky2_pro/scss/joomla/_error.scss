@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+.jsn-error-page {
+  text-align: center;
+  h1 {
+	color: #4d4d4d;
+    font-size: 140px;
+    font-weight: normal;
+    line-height: 144px;
+    margin: 0;
+    border-bottom: none;
+    font-family: 'Baloo', cursive;
+  }
+  #content {
+    position: absolute;
+    @include rtl-left(0);
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .table {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    .table-cell {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+    justify-content: center;
+    }
+  }
+  .content-inner {
+	text-align: left;
+	margin: 0 50px;
+    h3 {
+	    font-size: 25px;
+		font-weight: bold;
+		line-height: 25px;
+		margin: 0 0 20px;
+		text-transform: uppercase;
+		color: #4d4d4d;
+		font-family: 'Open Sans', sans-serif;
+    }
+	p {
+		color: #4d4d4d;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 18px;
+		margin: 0 0 5px;
+	}
+  }
+  .jsn-search {
+    input.form-control {
+        border: none;
+		border-radius: 0;
+		box-shadow: none;
+		height: auto;
+		line-height: 22px;
+		padding: 12px 10px;
+		width: 100%;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		color: #c8c8c8;
+		background: #f5f5f5;
+    }
+  }
+  .goto-home {
+	  margin: 22px 0 0;
+	a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	color: #6bcecb;
+	}
+  }
+}
+@media (max-width: 480px) {
+	.jsn-error-page {
+		.goto-home {
+			margin: 50px 0 10px;
+		}
+		.jsn-search input.form-control {
+			width: 100%;
+		}
+		.table .table-cell {
+			flex-direction: column;
+		}
+	}
+}

@@ -1,0 +1,79 @@
+body {
+  color: #555;
+  font-family: Cuprum;
+  font-size: 15px;
+  line-height: 1.4;
+}
+a:hover, a:focus {
+  color: custom;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Cuprum;
+  line-height: 1.4;
+  color: #000;
+  letter-spacing: 0px;
+}
+h1, .h1 {
+  font-size: 31px;
+}
+h2, .h2 {
+  font-size: 25px;
+}
+h3, .h3 {
+  font-size: 21px;
+}
+h4, .h4 {
+  font-size: 15px;
+}
+h5, .h5 {
+  font-size: 12px;
+}
+h6, .h6 {
+  font-size: 11px;
+}
+.btn-default {
+  font-size: 13px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 0px 0px #000;
+  box-shadow: 0px 0px 0px #000;
+}
+.btn-default:hover, .btn-default:focus {
+  color: #fff;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.active {
+  background-color: #02a4e4;
+}
+.btn-primary {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ccc;
+}
+.btn-primary {
+  background: #e7e7e7;
+  color: #333;
+  font-size: 13px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 0px 0px #000;
+  box-shadow: 0px 0px 0px #000;
+}
+.btn-primary:hover, .btn-primary:focus {
+  color: #fff;
+  border-color: #02a4e4;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.active {
+  background-color: #02a4e4;
+}
+.btn-primary, .btn-default {
+  padding-top: 10px;
+}
+.btn-primary, .btn-default {
+  padding-right: 25px;
+}
+.btn-primary, .btn-default {
+  padding-bottom: 10px;
+}
+.btn-primary, .btn-default {
+  padding-left: 25px;
+}

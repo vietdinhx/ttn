@@ -1,0 +1,118 @@
+body#sunfw-master .module-style-1 .module-title .box-title {
+  font-size: 14px;
+  font-weight: normal;
+}
+body#sunfw-master .module-style-2 .module-title .box-title {
+  font-size: 14px;
+  font-weight: normal;
+}
+body#sunfw-master .module-style-3 .module-title .box-title {
+  font-size: 14px;
+  font-weight: normal;
+}
+body#sunfw-master .module-style-4 .module-title .box-title {
+  font-size: 14px;
+  font-weight: normal;
+}
+body#sunfw-master .richbox-1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.17);
+}
+body#sunfw-master .richbox-1 .module-title .box-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body#sunfw-master .richbox-1 .module-body, body#sunfw-master .richbox-1 .custom {
+  color: #555;
+}
+body#sunfw-master .richbox-2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.17);
+}
+body#sunfw-master .richbox-2 .module-title .box-title {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body#sunfw-master .richbox-2 .module-body, body#sunfw-master .richbox-2 .custom {
+  color: #555;
+}
+body#sunfw-master .lightbox-2 .module-title .box-title {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body#sunfw-master .lightbox-2 .module-body, body#sunfw-master .lightbox-2 .custom {
+  color: #555;
+}
+body#sunfw-master .lightbox-1 .module-title .box-title {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body#sunfw-master .lightbox-1 .module-body, body#sunfw-master .lightbox-1 .custom {
+  color: #555;
+}
+body#sunfw-master .solid-2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  background: #373737;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgba(0, 0, 0, 0.2);
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+body#sunfw-master .solid-2 .module-title .box-title {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: normal;
+}
+body#sunfw-master .solid-2 .module-body, body#sunfw-master .solid-2 .custom {
+  color: #fff;
+}
+body#sunfw-master .solid-1 {
+  padding-right: 15px;
+  padding-left: 15px;
+  background: #02a4e4;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgba(0, 0, 0, 0.2);
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+body#sunfw-master .solid-1 .module-title .box-title {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: normal;
+}
+body#sunfw-master .solid-1 .module-body, body#sunfw-master .solid-1 .custom {
+  color: #fff;
+}

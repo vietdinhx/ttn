@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,700');
+#tour_target_editing_mode_dropdown {
+	margin-bottom: 20px;
+}
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 1px;
+}
+.sunfw-com-jomres {
+	.btn:not(.navbar-toggle),.form-control {
+		padding: 6px 10px;
+	}
+	.nav > li > a {
+		padding: 15px 10px;
+	}
+	a.editable-click {
+		border-bottom: none;
+	}
+	.navbar-default .navbar-brand {
+		padding: 8px 10px;
+	}
+}
+.jomres-propertylist-toolbar {
+	margin-bottom: 20px;
+}
+.title-property {
+	font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+	margin-top: 15px;
+}
+.ngm-row {
+	margin: 0 -15px;
+	.ngm-thumb {
+		border: 1px solid #ddd;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		box-shadow: 0 2px 0 rgba(0,0,0,0.05);
+		padding: 15px;
+		-webkit-transition: all .5s;
+		-moz-transition: all .5s;
+		-o-transition: all .5s;
+		-ms-transition: all .5s;
+		transition: all .5s;
+		margin-top: 30px;
+	}
+}
+.jomres-propertylist-toolbar form,
+h1#tour_target_property_header {
+    line-height: 30px;
+}
+.jomres-dashboard + .well .btn.btn-default.active {
+	color: #fff;
+}
+.progress-circle {
+		width: 3em;
+		height: 3em;
+		line-height: 3em;
+		margin: 15px 0;
+	&:after {
+		width: 2.3em;
+		height: 2.3em;
+	}
+	span {
+		width: 3em;
+		height: 3em;
+		line-height: 3em;
+	}
+}
+.left-half-clipper {
+	width: 3em;
+	height: 3em;
+	line-height: 3em;	
+}
+.dataTables_wrapper .dataTables_filter input {
+	border: 1px solid #ccc;
+}
+.jomres_property_list_propertywrapper {
+	.panel-default {
+		box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+	}
+	.panel-body p.small {
+		margin-top: 10px;
+	}
+	.panel-footer {
+		&:before,
+		&:after {
+			display: none;
+		}
+		padding: 10px 15px;
+		background-color: #fff;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.well {
+		margin-bottom: 0;
+		border: none;
+		background-color: #fff;
+		.row {
+			[class*=col-]:first-child {
+				text-align: left;
+				padding: 0 5px;
+			}
+			[class*=col-]:last-child {
+				text-align: right;
+				padding: 0 5px;
+			}
+		}
+		&.sw-property-price {
+			padding-bottom: 5px !important;
+		}
+	}
+	&.sw-listview {
+		.big-price {
+			color: #333;
+			line-height: 22px;
+		}
+		.well {
+			box-shadow: none;
+			padding: 0 !important;
+			color: #555;
+			font-size: 13px;
+		}
+		.panel-footer {
+			.action-btn {
+				a {
+					margin: 0 10px;
+					&:first-child {
+						@include rtl-margin-right(0);
+					}
+				}
+			}
+		}
+	}
+}
+.sunfw-com-jomres,
+#tour_target_inline_calendar,
+.sw-jr-calendar {
+	.ui-widget-content .ui-state-default{
+		text-align: center;
+		border: 1px solid #ddd;
+		background: #fff;
+		font-family: 'Cuprum', sans-serif;
+	}
+	.ui-widget-header {
+		border: 1px solid #ddd;
+		background: #f5f5f5;
+		font-family: 'Cuprum', sans-serif;
+	}
+	.ui-datepicker th{
+		font-family: Cuprum;
+		font-weight: normal;
+	}
+	.ui-datepicker-year,
+	.ui-datepicker-month {
+		font-family: Cuprum;
+	}
+}
+#tour_target_inline_calendar,
+.sw-jr-calendar {	
+	.ui-datepicker table {
+		width: 100%;
+	}
+	.ui-widget.ui-widget-content {	
+		display: block;
+		padding: 0;
+		width: 100%;
+		border: none;
+	}
+}
+.panel-body {
+    padding: 15px;
+}
+#jomres_content_area {
+	ol {
+		@include rtl-padding-left(12px);
+	}
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child:before {
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 16px;
+}
+table.dataTable.no-footer {
+    border-color: #ccc;
+	margin-bottom: 15px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0.2em 0.5em;
+	border: none;
+	background: transparent;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+	color: #fff !important;
+	border: none;
+}
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #ddd;
+}
+#property_details {
+	.jomres-calendar-day-num {
+		font-size: 13px;
+	}
+	.tabbable {
+		.tab-pane.active {
+			margin-top: 15px;
+			&:first-child > .row {
+				margin: 0 -15px 15px;
+			}
+			&:last-child {
+				margin-top: 0;
+			}
+		}
+	}
+}
+.pdetails-icons {
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding-top: 10px;
+}
+.panel-title {
+	font-size: 17px;
+}
+.sw-property-address {
+	a {
+		color: #555;
+		font-size: 14px;
+	}
+}
+.sw-property-address-mod {
+	margin-bottom: 2px;
+}
+#jomres-mainmenu-collapse {
+	ul {
+		li.dropdown[id^="cpanel-category-"] {
+			display: block !important;
+		}
+	}
+}
+.home-search.appear {
+	[class*="col-"] {
+		padding: 0;
+		.input-group {
+			width: 100%;
+		}
+		.type {
+			label {
+				display: block;
+			}
+		}
+		.type a {
+			background: #777777;
+			color: #fff;
+			font-size: 75%;
+			padding: .2em .6em .2em;
+			margin: 0 5px;
+			border-radius: 3px;
+			display: inline-block;
+		}
+		> .form-group.btn-jr-submit {
+			margin-top: 5px;
+			margin-bottom: 10px;
+		}
+	}
+}
+#core_extras {
+	margin: 0;
+}
+.compare-table {
+	.thumbnail {
+		border: none;
+		border-radius: 0;
+		padding: 0;
+	}
+}
+.tipsy-inner {
+  cursor: help;
+  color: #fff !important;
+  font-size: 14px;
+  h4 {
+	color: #fff !important;
+    font-size: 16px;
+  }
+}
+.calendar-month-container {
+    border: 1px solid #ddd;
+    min-height: 280px;
+	margin-bottom: 20px;
+}
+.property-header-fb {
+	display: flex;
+	.fb-share-button {
+		margin-right: 5px;
+	}
+}
+.property-header {
+	address {
+		font-size: 14px;
+		color: #999;
+	}
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	.ngm-thumb {
+		.content {
+			p {
+				font-size: 90%;
+			}
+		}
+	}
+}
+@media (max-width: $screen-sm-max) {
+	.sw-listview {
+		.galleria-theme-classic {
+			margin-bottom: 15px;
+		}
+	}
+}
+@media (max-width: $screen-xs-max) {
+	.ngm-row {
+		margin: 0;
+	}
+	#frontend_list_properties_filter {
+		input[type="search"] {
+			width: 100%;
+		}
+	}
+	#property_details {
+		table.calendar tr td {
+			padding: 3px 2px;
+		}
+		.calendar-month-container {
+			min-height: 250px;
+		}
+		.tabbable .tab-content {
+			width: 100%;
+			overflow-x: scroll;
+		}
+	}
+}
+@media (max-width: 320px) {
+	.sunfw-com-jomres .btn:not(.navbar-toggle),
+	.sunfw-com-jomres .form-control {
+		padding: 6px 10px;
+	}
+}
